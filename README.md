@@ -29,7 +29,7 @@ This API helps the user use the Internet Protocol differently. *more workout*
  * [MaxMind API](https://github.com/maxmind/geoip-api-java)
  * [JarchiveLib](https://rauschig.org/jarchivelib/download.html)
  ## [Download leatest release](https://github.com/MrHaber/GeoIP-API-Bungee/releases)
- 
+ https://github.com/MrHaber/GeoIP-API-Bungee/releases
 
 
   
