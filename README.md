@@ -8,7 +8,7 @@
 :hand: The simplest API for working with IP and player location
 
 ## About
-This API helps the user use the Internet Protocol differently. *more workout*
+This API helps the user use the Internet Protocol differently. *more workout*\n
 Maven central repository will be ready later
 
 ## Features
