@@ -22,7 +22,7 @@ This API helps the user use the Internet Protocol differently. *more workout*
  ### 1.2
  * Added GZIP Loader with [jarchivelib](https://rauschig.org/jarchivelib/download.html)
  ### 1.3
- * Bugs fixed :cool:
+ * Bugs fixed :cheese:
  
 
 
