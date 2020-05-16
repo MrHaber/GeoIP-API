@@ -7,5 +7,14 @@
 # GeoIP-API-Bungee
 :hand: The simplest API for working with IP and player location
 
+## About
+This API helps the user use the Internet Protocol differently. *more workout*
+Maven central repository will be ready later
+
+## Features
+ * Fatest request DB
+ * Implemented Cache handler
+ ### Some
+
 
   
