@@ -12,9 +12,16 @@ This API helps the user use the Internet Protocol differently. *more workout*
 Maven central repository will be ready later
 
 ## Features
+ ### 1.0
  * Fatest request DB
  * Implemented Cache handler
- ### Some
+ ### 1.1
+ * Not require zip link information
+ * Automatic IP handler
+ * Such GeoIP.java now redefined
+ ### 1.2
+ * Added GZIP Loader with jarchivelib(https://rauschig.org/jarchivelib/download.html)
+ 
 
 
   
