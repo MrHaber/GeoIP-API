@@ -24,7 +24,23 @@ This API helps the user use the Internet Protocol differently. *more workout*
  * Added GZIP Loader with [jarchivelib](https://rauschig.org/jarchivelib/download.html)
  ### 1.3
  * Bugs fixed :cheese:
- 
+ ## Dependencies
+  ```maven
+<dependency>
+		<groupId>org.projectlombok</groupId>
+		<artifactId>lombok</artifactId>
+		<version>1.18.12</version>
+		<scope>provided</scope>
+</dependency>
+   
+<dependency>
+  <groupId>org.jetbrains</groupId>
+  <artifactId>annotations</artifactId>
+  <version>13.0</version>
+</dependency>
+
+
+  ```
 
 
   
