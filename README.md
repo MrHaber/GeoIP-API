@@ -20,7 +20,7 @@ Maven central repository will be ready later
  * Automatic IP handler
  * Such GeoIP.java now redefined
  ### 1.2
- * Added GZIP Loader with jarchivelib(https://rauschig.org/jarchivelib/download.html)
+ * Added GZIP Loader with [jarchivelib](https://rauschig.org/jarchivelib/download.html)
  
 
 
