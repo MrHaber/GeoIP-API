@@ -1,4 +1,4 @@
-<p align="center"><img src="data/icon-256x256.png"></p>
+<p align="center"><img src="data/Geolocation-privacy.png"></p>
 
 
 # GeoIP-API-Bungee
