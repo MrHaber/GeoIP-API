@@ -1,2 +1,2 @@
 # GeoIP-API-Bungee
-Some repo GeoIP for Bungeecord developers
+![License](https://img.shields.io/github/license/MrHaber/GeoIP-API-Bungee)
