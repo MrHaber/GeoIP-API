@@ -25,18 +25,18 @@ This API helps the user use the Internet Protocol differently. *more workout*
  ### 1.3
  * Bugs fixed :cheese:
  ## Dependencies
-  ```maven
+  ```java
 <dependency>
-		<groupId>org.projectlombok</groupId>
-		<artifactId>lombok</artifactId>
-		<version>1.18.12</version>
-		<scope>provided</scope>
+	<groupId>org.projectlombok</groupId>
+	<artifactId>lombok</artifactId>
+	<version>1.18.12</version>
+	<scope>provided</scope>
 </dependency>
    
 <dependency>
-  <groupId>org.jetbrains</groupId>
-  <artifactId>annotations</artifactId>
-  <version>13.0</version>
+  	<groupId>org.jetbrains</groupId>
+  	<artifactId>annotations</artifactId>
+  	<version>13.0</version>
 </dependency>
 
 
