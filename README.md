@@ -60,5 +60,7 @@ This API helps the user use the Internet Protocol differently. *more workout*
  ## [Download leatest release](https://github.com/MrHaber/GeoIP-API-Bungee/releases)
  https://github.com/MrHaber/GeoIP-API-Bungee/releases
 
+## Licence
+Project leached Apache License Version 2.0. [For more information](https://github.com/MrHaber/GeoIP-API-Bungee/blob/master/LICENSE)
 
   
