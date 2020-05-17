@@ -35,14 +35,14 @@ This API helps the user use the Internet Protocol differently. *more workout*
  
     @EventHandler
     public void ServerConnectEvent(final ServerConnectedEvent e) {
-        final ProxiedPlayer pl = e.getPlayer();
+        final ProxiedPlayer player = e.getPlayer();
         
     	
     	try {
     		
-    	GeoAPI provider = GeoProvider.createConnectionDB().initStatementIP(pl.getAddress().getHostName()).getGeoAPI();
+    	GeoAPI provider = GeoProvider.createConnectionDB().initStatementIP(player.getAddress().getHostName()).getGeoAPI();
     	
-		logger.log(Level.INFO, "[GeoIP] Player country is : " + provider.getCityProvider().getName());
+	logger.log(Level.INFO, "[GeoIP] Player country is : " + provider.getCityProvider().getName());
 		
     	}catch (Exception ex) {
     		
@@ -52,6 +52,11 @@ This API helps the user use the Internet Protocol differently. *more workout*
         
     }
  ```
+ ## Installing
+ * Setup bungeecord
+ * Move GeoIP-API.jar into plugins folder
+ * Start the server so that the database boots.
+ * You can use plugins with api if database are loaded
  ## [Download leatest release](https://github.com/MrHaber/GeoIP-API-Bungee/releases)
  https://github.com/MrHaber/GeoIP-API-Bungee/releases
 
