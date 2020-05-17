@@ -42,7 +42,7 @@ This API helps the user use the Internet Protocol differently. *more workout*
     		
     	GeoAPI provider = GeoProvider.createConnectionDB().initStatementIP(player.getAddress().getHostName()).getGeoAPI();
     	
-	logger.log(Level.INFO, "[GeoIP] Player country is : " + provider.getCityProvider().getName());
+		logger.log(Level.INFO, "[GeoIP] Player country is : " + provider.getCityProvider().getName());
 		
     	}catch (Exception ex) {
     		
