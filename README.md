@@ -53,7 +53,7 @@ This API helps the user use the Internet Protocol differently. *more workout*
     }
  ```
  ## Installing
- * Setup bungeecord
+ * Install [bungeecord](https://github.com/SpigotMC/BungeeCord)
  * Move GeoIP-API.jar into plugins folder
  * Start the server so that the database boots.
  * You can use plugins with api if database are loaded
