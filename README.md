@@ -28,6 +28,29 @@ This API helps the user use the Internet Protocol differently. *more workout*
  * [BungeeCord](https://github.com/SpigotMC/BungeeCord)
  * [MaxMind API](https://github.com/maxmind/geoip-api-java)
  * [JarchiveLib](https://rauschig.org/jarchivelib/download.html)
+ ## Examples
+ ### Java
+ ```java
+ 	private static final Logger logger = ProxyServer.getInstance().getLogger();
+    @EventHandler
+    public void ServerConnectEvent(final ServerConnectedEvent e) {
+        final ProxiedPlayer pl = e.getPlayer();
+        
+    	
+    	try {
+    		
+    	GeoAPI provider = GeoProvider.createConnectionDB().initStatementIP(pl.getAddress().getHostName()).getGeoAPI();
+    	
+		logger.log(Level.INFO, "[GeoIP] Player country is : " + provider.getCityProvider().getName());
+		
+    	}catch (Exception ex) {
+    		
+    		logger.log(Level.WARNING, "[GeoIP] Something went wrong");
+    		
+    	}
+        
+    }
+ ```
  ## [Download leatest release](https://github.com/MrHaber/GeoIP-API-Bungee/releases)
  https://github.com/MrHaber/GeoIP-API-Bungee/releases
 
