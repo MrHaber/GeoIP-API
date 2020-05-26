@@ -9,7 +9,7 @@
 
   <name>GeoIP-API</name>
   <url>http://maven.apache.org</url>
-
+   <description>Some API for detect geolocation for Bungee usage</description>
 <licenses>
     <license>
       <name>Apache License, Version 2.0</name>
