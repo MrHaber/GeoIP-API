@@ -17,7 +17,21 @@
       <distribution>repo</distribution>
     </license>
 </licenses>
- 
+    <developers>
+        <developer>
+            <id>haber-hcoder</id>
+            <name>MrHaber Prog.Hub</name>
+            <email>mrhaberbean@gmail.com</email>
+            <url>https://github.com/MrHaber</url>
+            <roles>
+                <role>Middle developer</role>
+            </roles>
+            <timezone>3</timezone>
+            <properties>
+                <social.vk>mrhaberbean</social.vk>
+            </properties>
+        </developer>
+    </developers>
   <scm>
     <url>https://svn.apache.org/viewvc/maven</url>
   </scm>
