@@ -10,7 +10,7 @@
 
 ## About
 This API helps the user use the Internet Protocol differently. *more workout*
-###Maven
+### Maven
 ```xml
 <dependency>	
   <groupId>ru.Haber.GeoIP</groupId>
@@ -18,7 +18,10 @@ This API helps the user use the Internet Protocol differently. *more workout*
   <version>0.13-ALPHA</version>    
 </dependency>
 ```
-
+### Gradle (Groovy)
+```groovy
+compileOnly 'ru.Haber.GeoIP:GeoIP-API:0.13-ALPHA'
+```
 ## Features
  ### 1.0
  * Fatest request DB
