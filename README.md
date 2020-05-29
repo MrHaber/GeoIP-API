@@ -10,7 +10,14 @@
 
 ## About
 This API helps the user use the Internet Protocol differently. *more workout*
-* Maven central repository will be ready later
+###Maven
+```xml
+<dependency>	
+  <groupId>ru.Haber.GeoIP</groupId>
+  <artifactId>GeoIP-API</artifactId>
+  <version>0.13-ALPHA</version>    
+</dependency>
+```
 
 ## Features
  ### 1.0
