@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.IOException;
 import java.net.URISyntaxException;
 
+import org.jetbrains.annotations.NotNull;
 import org.rauschig.jarchivelib.ArchiveEntry;
 import org.rauschig.jarchivelib.ArchiveFormat;
 import org.rauschig.jarchivelib.ArchiveStream;
@@ -25,7 +26,7 @@ public class ArchiveUtils {
 	 * [RU] Универсальный метод работы с архивами
 	 * [EN] The universal method of working with archives
 	 */
-    public static void exratctFileList( String zipfilePath, String outdir ) throws IOException, URISyntaxException {
+    public static void exratctFileList(@NotNull String zipfilePath, @NotNull String outdir ) throws IOException, URISyntaxException {
     	/*
     	 * 
     	 * [RU] Объект распаковки/место распаковки
@@ -62,7 +63,7 @@ public class ArchiveUtils {
         
         
     }
-    public static void getFolderZIP(String zipfilePath) throws IOException {
+    public static void getFolderZIP(@NotNull String zipfilePath) throws IOException {
         Archiver archiver = null;
         if( zipfilePath.endsWith(".zip")) {
             archiver = ArchiverFactory.createArchiver( ArchiveFormat.ZIP );
