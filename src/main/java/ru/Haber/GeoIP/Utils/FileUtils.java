@@ -22,7 +22,7 @@ public class FileUtils {
         return fileList;
     }
     
-    public File getCurrentFileFromArray(@NotNull File[] file, @NotNull int index) {
+    private final File getCurrentFileFromArray(@NotNull File[] file, @NotNull int index) {
     	return file[index];
     }
     
