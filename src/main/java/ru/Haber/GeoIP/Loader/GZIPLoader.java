@@ -54,7 +54,7 @@ public final class GZIPLoader implements ZIPLoader{
 	@Override
 	public Runnable load(String url, String path, String name) {
 		return () -> {
-		
+		logger.log(Level.SEVERE, "Wait, for answer from maxmind.com...");
 		long startTime = System.currentTimeMillis();
 		if(!new File(path, name).exists()) {
 			logger.log(Level.SEVERE, "Starting load database...");
