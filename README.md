@@ -23,7 +23,11 @@ This API helps the user use the Internet Protocol differently. *more workout*
 compileOnly 'ru.Haber.GeoIP:GeoIP-API:0.13-ALPHA'
 ```
 You can use this, without bungeecord dependency.
+ ```java
+loader = new GZIPLoader("https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-City&license_key=xn8gNRMTA7nzHy3g&suffix=tar.gz", loader_file_link, "GeoIP-City.tar.gz");
 
+loader.start(loader.load(loader.getURL(), loader.getPath(), loader.getName()));
+```
 ## Features
  ### 1.0
  * Fatest request DB
