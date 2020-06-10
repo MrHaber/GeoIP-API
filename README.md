@@ -22,6 +22,8 @@ This API helps the user use the Internet Protocol differently. *more workout*
 ```groovy
 compileOnly 'ru.Haber.GeoIP:GeoIP-API:0.13-ALPHA'
 ```
+You can use this, without bungeecord dependency.
+
 ## Features
  ### 1.0
  * Fatest request DB
