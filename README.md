@@ -10,12 +10,15 @@
 
 ## About
 This API helps the user use the Internet Protocol differently. *more workout*
+## [Require Bungeecord for working.](https://github.com/SpigotMC/BungeeCord)
 ### Maven
 ```xml
 <dependency>	
   <groupId>ru.Haber.GeoIP</groupId>
   <artifactId>GeoIP-API</artifactId>
-  <version>0.13-ALPHA</version>    
+  <version>0.13-ALPHA</version>
+  <type>pom</type>
+  <scope>provided</scope>
 </dependency>
 ```
 ### Gradle (Groovy)
