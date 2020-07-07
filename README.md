@@ -3,7 +3,8 @@
 
 
 ![License](https://img.shields.io/github/license/MrHaber/GeoIP-API-Bungee) [![GitHub license](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat)](https://github.com/MrHaber/GeoIP-API-Bungee/blob/master/LICENSE)
-
+![GitHub issues](https://img.shields.io/github/issues/MrHaber/GeoIP-API.svg)
+![GitHub tag](https://img.shields.io/github/v/tag/MrHaber/GeoIP-API.svg)
 # GeoIP-API
 :hand: This is the simplest API for working with IP and Geo Location from webresources. [using some maxmind api](https://github.com/maxmind/GeoIP2-java)
 
