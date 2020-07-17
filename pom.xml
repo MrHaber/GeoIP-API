@@ -9,7 +9,8 @@
 
   <name>GeoIP-API</name>
   <url>http://maven.apache.org</url>
-   <description>Some API for detect geolocation for Bungee usage</description>
+   <description>API for working with IP and take some dataset</description>
+<!-- Apache licence information for sonatype -->
 <licenses>
     <license>
       <name>Apache License, Version 2.0</name>
@@ -35,6 +36,7 @@
   <scm>
     <url>https://svn.apache.org/viewvc/maven</url>
   </scm>
+<!-- Install Java 8 offset -->
   <properties>
   	<java.version>1.8</java.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
