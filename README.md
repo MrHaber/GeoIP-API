@@ -4,8 +4,8 @@
 ![Language](https://img.shields.io/badge/language-java-orange.svg)
 ![License](https://img.shields.io/github/license/MrHaber/GeoIP-API-Bungee) [![GitHub license](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat)](https://github.com/MrHaber/GeoIP-API-Bungee/blob/master/LICENSE)
 ![GitHub issues](https://img.shields.io/github/issues/MrHaber/GeoIP-API.svg)
-![GitHub tag](https://img.shields.io/github/v/tag/MrHaber/GeoIP-API.svg)
-![Repo-size](https://img.shields.io/github/repo-size/MrHaber/GEOIP-API)
+![GitHub tag](https://img.shields.io/github/v/tag/MrHaber/GeoIP-API.svg?label=api-version)
+![Repo-size](https://img.shields.io/github/repo-size/MrHaber/GEOIP-API.svg)
 ![Stars](https://img.shields.io/github/stars/MrHaber/GeoIP-API)
 ![Forks](https://img.shields.io/github/forks/MrHaber/GeoIP-API)
 # GeoIP-API
