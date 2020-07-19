@@ -58,7 +58,7 @@ loader.start(loader.load(loader.getURL(), loader.getPath(), loader.getName()));
     private static final Logger logger = ProxyServer.getInstance().getLogger();
  
     @EventHandler
-    public void ServerConnectEvent(final ServerConnectedEvent e) {
+    public void ServerConnectEvent(ServerConnectedEvent e) {
         final ProxiedPlayer player = e.getPlayer();
         
     	
