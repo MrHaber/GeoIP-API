@@ -54,6 +54,7 @@
     </distributionManagement>
 <!-- Список подключённых зависимостей -->
   <dependencies>
+<!-- Юнит-тесты для непрерывного тестирования avable soon -->
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
