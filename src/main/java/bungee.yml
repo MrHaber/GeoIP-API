@@ -1,4 +1,4 @@
 main: ru.Haber.GeoIP.GeoIPAPI
 name: GeoIPAPI
 author: MrHaber
-version: 0.14 (alpha)
+version: 0.13-ALPHA
