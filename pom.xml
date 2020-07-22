@@ -66,6 +66,7 @@
   <artifactId>jarchivelib</artifactId>
   <version>0.7.1</version>
 </dependency>
+<!-- Дополнительный зависимости BungeeCord -->
         <dependency>
           <groupId>net.md-5</groupId>
           <artifactId>bungeecord-api</artifactId>
