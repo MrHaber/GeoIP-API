@@ -19,7 +19,6 @@ import com.maxmind.geoip2.exception.GeoIp2Exception;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
-import lombok.val;
 import net.md_5.bungee.api.ProxyServer;
 import ru.Haber.GeoIP.GeoIPAPI;
 import ru.Haber.GeoIP.Utils.ArchiveUtils;
