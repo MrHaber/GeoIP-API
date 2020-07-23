@@ -30,7 +30,7 @@ This API helps the user use the Internet Protocol differently. Please check new 
 ```groovy
 compileOnly 'ru.Haber.GeoIP:GeoIP-API:0.13-ALPHA'
 ```
-You can use this, without bungeecord dependency.
+You can use this, without large dependency.
  ```java
 loader = new GZIPLoader("https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-City&license_key=xn8gNRMTA7nzHy3g&suffix=tar.gz", loader_file_link, "GeoIP-City.tar.gz");
 
