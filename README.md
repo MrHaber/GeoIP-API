@@ -9,7 +9,7 @@
 ![Stars](https://img.shields.io/github/stars/MrHaber/GeoIP-API?color=yellow)
 ![Forks](https://img.shields.io/github/forks/MrHaber/GeoIP-API?color=red)
 # GeoIP-API
-:hand: This is the simplest API for working with IP and Geo Location from webresources. [using some maxmind api](https://github.com/maxmind/GeoIP2-java)
+:hand: API for working with IP and Geo Location from webresources. [using some maxmind api](https://github.com/maxmind/GeoIP2-java)
 
 
 ## About
