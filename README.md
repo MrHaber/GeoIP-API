@@ -15,7 +15,7 @@
 ## About
 This API helps the user use the Internet Protocol differently. Please check new updates on github
 [Check Releases](https://github.com/MrHaber/GeoIP-API#download-leatest-release)
-## [Require Bungeecord for working.](https://github.com/SpigotMC/BungeeCord)
+## [Require Bungeecord for working...](https://github.com/SpigotMC/BungeeCord)
 ### Maven
 ```xml
 <dependency>	
