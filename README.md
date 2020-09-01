@@ -6,7 +6,7 @@
 ![GitHub issues](https://img.shields.io/github/issues/MrHaber/GeoIP-API.svg)
 ![GitHub tag](https://img.shields.io/github/v/tag/MrHaber/GeoIP-API.svg?label=api-version)
 ![Repo-size](https://img.shields.io/github/repo-size/MrHaber/GEOIP-API.svg?label=size)
-![Stars](https://img.shields.io/github/stars/MrHaber/GeoIP-API?color=yellow)
+![Stars](https://img.shields.io/github/stars/MrHaber/GeoIP-API?color=orange)
 ![Forks](https://img.shields.io/github/forks/MrHaber/GeoIP-API?color=blue)
 # GeoIP-API
 :hand: API for working with IP and Geo Location from webresources. [using some maxmind api](https://github.com/maxmind/GeoIP2-java)
