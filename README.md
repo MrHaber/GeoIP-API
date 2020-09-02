@@ -8,6 +8,7 @@
 ![Repo-size](https://img.shields.io/github/repo-size/MrHaber/GEOIP-API.svg?label=size)
 ![Stars](https://img.shields.io/github/stars/MrHaber/GeoIP-API?color=orange)
 ![Forks](https://img.shields.io/github/forks/MrHaber/GeoIP-API?color=blue)
+![Travis](https://travis-ci.com/MrHaber/GeoIP-API.svg?branch=master)
 # GeoIP-API
 :hand: API for working with IP and Geo Location from webresources. [using some maxmind api](https://github.com/maxmind/GeoIP2-java)
 
