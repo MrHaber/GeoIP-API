@@ -26,7 +26,8 @@ This API helps the user use the Internet Protocol differently. Please check new 
 	<id>jitpack.io</id>
 	<url>https://jitpack.io</url>
 	</repository>
-   </repositories>
+</repositories>
+
 <dependency>
      <groupId>com.github.MrHaber</groupId>
      <artifactId>GeoIP-API</artifactId>
@@ -36,7 +37,16 @@ This API helps the user use the Internet Protocol differently. Please check new 
 ```
 ### Gradle (Groovy)
 ```groovy
-compileOnly 'ru.Haber.GeoIP:GeoIP-API:0.13-ALPHA'
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+	
+	dependencies {
+	        implementation 'com.github.MrHaber:GeoIP-API:0.15'
+	}
 ```
 You can use this, without large dependency.
  ```java
