@@ -37,16 +37,15 @@ This API helps the user use the Internet Protocol differently. Please check new 
 ```
 ### Gradle (Groovy)
 ```groovy
-	allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
+allprojects {
+	repositories {
+		maven { url 'https://jitpack.io' }
 	}
+}
 	
-	dependencies {
-	        implementation 'com.github.MrHaber:GeoIP-API:0.15'
-	}
+dependencies {
+	implementation 'com.github.MrHaber:GeoIP-API:0.15'
+}
 ```
 You can use this, without large dependency.
  ```java
