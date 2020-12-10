@@ -33,13 +33,6 @@ This API helps the user use the Internet Protocol differently. Please check new 
      <version>0.15</version>
      <type>pom</type>
 </dependency>
-<dependency>	
-  <groupId>ru.Haber.GeoIP</groupId>
-  <artifactId>GeoIP-API</artifactId>
-  <version>0.13-ALPHA</version>
-  <type>pom</type>
-  <scope>provided</scope>
-</dependency>
 ```
 ### Gradle (Groovy)
 ```groovy
