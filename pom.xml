@@ -18,6 +18,12 @@
       <distribution>repo</distribution>
     </license>
 </licenses>
+ <repositories>
+	<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+	</repositories>
     <developers>
         <developer>
             <id>haber-hcoder</id>
