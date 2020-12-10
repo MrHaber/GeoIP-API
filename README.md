@@ -10,6 +10,7 @@
 ![Stars](https://img.shields.io/github/stars/MrHaber/GeoIP-API?color=orange)
 ![Forks](https://img.shields.io/github/forks/MrHaber/GeoIP-API?color=blue)
 [![Travis](https://travis-ci.com/MrHaber/GeoIP-API.svg?branch=master)](https://travis-ci.com/github/MrHaber/GeoIP-API)
+[![](https://jitpack.io/v/MrHaber/GeoIP-API.svg)](https://jitpack.io/#MrHaber/GeoIP-API)
 # GeoIP-API
 :hand: API for working with IP and Geo Location from webresources. [using some maxmind api](https://github.com/maxmind/GeoIP2-java)
 
@@ -20,6 +21,18 @@ This API helps the user use the Internet Protocol differently. Please check new 
 ## [Require Bungeecord for working...](https://github.com/SpigotMC/BungeeCord)
 ### Maven
 ```xml
+<repositories>
+   <repository>
+	<id>jitpack.io</id>
+	<url>https://jitpack.io</url>
+	</repository>
+   </repositories>
+<dependency>
+     <groupId>com.github.MrHaber</groupId>
+     <artifactId>GeoIP-API</artifactId>
+     <version>0.15</version>
+     <type>pom</type>
+</dependency>
 <dependency>	
   <groupId>ru.Haber.GeoIP</groupId>
   <artifactId>GeoIP-API</artifactId>
