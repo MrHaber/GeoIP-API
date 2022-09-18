@@ -22,10 +22,10 @@ import ru.Haber.GeoIP.Loader.ZIPLoader;
 public abstract class AbstractCacheHandle<T extends ZIPLoader> implements Cloneable{
 	@NotNull
 	@NonFinal
-	private T loader;
+	protected T loader;
 	@Getter
 	@Setter
-	private Optional<T> cacheElementsOptional;
+	protected Optional<T> cacheElementsOptional;
 	
 	public AbstractCacheHandle(@NotNull T loader) {
 		
@@ -77,7 +77,7 @@ public abstract class AbstractCacheHandle<T extends ZIPLoader> implements Clonea
 	
 	
 	@Getter
-	private final Collection<T> cache = Collections.synchronizedCollection(new LinkedList<>());
+	protected final Collection<T> cache = Collections.synchronizedCollection(new LinkedList<>());
 	
 	@FunctionalInterface
 	interface ActionProvider {
